@@ -1,6 +1,26 @@
 # Ejercicio 1 del Curso de MERN de OpenBootcamp
 
-## Dependencias instaladas
+## Dependencias instaladas del ejercicio 2
+
+### 1. Dependencias de producción
+
+> Son dependencias instaladas tanto para el entorno de desarrollo como para el entorno de producción.
+
+* #### cors en su versión ^2.8.5:
+    > cors - Intercambio de recursos de origen cruzado - Utiliza cabeceras HTTP adicionales para permitir acceder a recursos de un servidor de un dominio distinto del que pertenece.
+
+* #### helmet en su versión ^6.0.0:
+    > Es un módulo de Node que ayuda a proteger los encabezados HTTP.
+
+### 2. Dependencias de desarrollo
+
+> Son dependencias instaladas solamente para el entorno de desarrollo.
+
+* #### @types/cors en su versión ^2.8.12:
+
+    > Contiene las definiciones de cors para TypeScript.
+
+## Dependencias instaladas del ejercicio 1
 
 ### 1. Dependencias de producción
 
@@ -105,3 +125,27 @@
 Por el momento solo hay una:
 
     PORT=8000
+
+## Pruebas con Postman
+
+ > Incluyo archivo exportado de colección de Postman
+
+### Get Root Router
+
+![alt Get Root Router](postman-get-root-router.png)
+
+### Get Hello Whithout Name in Query Param
+
+![alt Get Hello Whithout Name in Query Param](postman-get-hello-without-name-in-query-param.png)
+
+### Get Hello With Name in Query Param
+
+![alt Get Hello With Name in Query Param](postman-get-hello-with-name-in-query-param.png)
+
+### Get Goodbye Without Name in Query Param
+
+![alt Get Goodbye Without Name in Query Param](postman-get-goodbye-without-name-in-query-param.png)
+
+### Get Goodbye With Name in Query Param
+
+![alt Get Goodbye With Name in Query Param](postman-get-goodbye-with-name-in-query-param.png)
