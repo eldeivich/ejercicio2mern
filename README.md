@@ -1,4 +1,4 @@
-# Ejercicio 1 del Curso de MERN de OpenBootcamp
+# Ejercicio 2 del Curso de MERN de OpenBootcamp
 
 ## Dependencias instaladas del ejercicio 2
 
